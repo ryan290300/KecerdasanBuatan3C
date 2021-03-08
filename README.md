@@ -35,3 +35,5 @@ Cara memperbaharui repository anda.
 ```
 git pull origin master
 ```
+
+PS : Saling menunggu ya :)
