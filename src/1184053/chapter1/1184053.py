@@ -29,8 +29,8 @@ X, y = datasets.load_iris(return_X_y=True) #Mengambil dataset iris dan mengembal
 clf.fit(X, y)               #Perhitungan nilai label
 
 from joblib import dump, load #memanggil class dump dan load pada library joblib
-dump(clf, '1174070.joblib') #Menyimpan model kedalam 1174027.joblib
-hasil = load('1174070.joblib') #Memanggil model 1174027
+dump(clf, '1174070.joblib') #Menyimpan model kedalam 1184053.joblib
+hasil = load('1174070.joblib') #Memanggil model 1184053
 print(hasil) # Menampilkan Model yang dipanggil sebelumnya
 
 #%% Conventions
